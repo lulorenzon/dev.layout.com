@@ -1,4 +1,4 @@
-# Studies
+# Estudos
 
  Developing figma platform design , for development , improvements and practices
  
