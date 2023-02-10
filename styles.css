@@ -55,11 +55,11 @@ header {
 }
 
 .box {
-  padding: 24px;
+  padding: 17px;
   gap: 24px;
   width: 380px;
-  height: 470px;
-  margin: 80px;
+  height: 458px;
+  margin: 10px;
   background-color: white;
   border-radius: 32px;
 }
