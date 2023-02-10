@@ -15,6 +15,6 @@ https://uidesigndaily.com/posts/figma-collections-list-collection-card-day-1577
 my project  
 
 
-<img   alt="project" src="file:///Users/luana.santos/Desktop/Captura%20de%20Tela%202023-02-10%20a%CC%80s%2012.20.52.png">
 
 
+<img width="824" alt="Captura de Tela 2023-02-10 às 12 20 52" src="https://user-images.githubusercontent.com/103546259/218128756-e1937e0c-b5d8-46bf-872b-b6f8a675775a.png">
