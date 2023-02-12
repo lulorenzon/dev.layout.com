@@ -16,11 +16,17 @@ h1 {
   padding: 30px;
 }
 
+@media screen and (min-width: 360px) {
+  .h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 header {
   background-color: #eff0f1;
   padding: 0px;
-
-  justify-content: space-between;
 }
 
 .header nav ul {
@@ -29,6 +35,14 @@ header {
 
 .header ul {
   display: flex;
+  margin-right: 53px;
+}
+@media screen and (min-width: 360px) {
+  .header {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
 }
 
 .header ul li {
@@ -44,13 +58,12 @@ header {
 }
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 360px) {
   .container {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
