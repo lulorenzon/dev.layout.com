@@ -17,4 +17,17 @@ my project
 
 
 
-<img width="824" alt="Captura de Tela 2023-02-10 às 12 20 52" src="https://user-images.githubusercontent.com/103546259/218128756-e1937e0c-b5d8-46bf-872b-b6f8a675775a.png">
+<img width="600" alt="Captura de Tela 2023-02-10 às 12 20 52" src="https://user-images.githubusercontent.com/103546259/218128756-e1937e0c-b5d8-46bf-872b-b6f8a675775a.png">
+
+
+
+
+O objetivo desse projeto foi colocar em prática o meu conhecimento em hmtl, css e responsividade.
+
+
+
+Um site responsivo significa que diferentes folhas de estilo CSS são carregadas para se adequarem melhor ao tamanho de tela de vários dispositivos. 
+
+
+
+✅ Deploy: https://lulorenzon.github.io/luanadev/
