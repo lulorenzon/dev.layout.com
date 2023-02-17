@@ -1,0 +1,138 @@
+body {
+    background-color: #d8dae2;
+   
+}
+
+.container {
+  justify-content: space-around;
+  align-items: flex-end;
+  display: flex;
+}
+
+
+.box {
+    
+    gap: 24px;
+    width: 28%;
+    height: 340px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 32px;
+
+}
+
+  @media screen and (min-width: 940px){
+  .box {
+    
+}
+}
+
+.big-image img:hover{
+
+  transform: scale(1.2, 1.2);
+}
+
+.big-image img {
+    width: 90%;
+    height: 180px;
+    border-radius: 24px;
+    margin-bottom: 12px;
+    margin: 10px 16px;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+
+  }
+
+.three-images:hover img {
+  transform: scale(1.2, 1.2);
+
+}
+
+
+@media screen and (min-width: 940px){
+  .three-images {
+    margin: -7px -1px 0px 7px;
+
+}
+}
+  
+.three-images img {
+
+    cursor: pointer;
+    width: 29%;
+    height: 80px;
+    margin: 3px;
+    border-radius: 24px;
+    transition: .3s;
+    background-size: cover;
+    transform: scale(1, 1);
+   /* transition: transform 0.3s ease; */
+  }
+
+.header{
+
+  margin: 60px;
+}
+
+.header:hover li a {
+ background-color:#dcdcdc;
+ 
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 8px;
+}
+
+.header a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.hero h1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 28px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.menu a:hover{
+  background-color:#dcdcdc;
+}
+.header ul li {
+   
+  margin-left: 8px;
+}
+
+.background{
+
+    margin: 50px;
+    border-radius: 32px; 
+    background-color: #eff0f1;
+    min-height: 600px;
+}
+
+.words-small img {
+  width: 25px;
+  height: 25px;
+  padding-left: 250px;
+}
+
+.words-small{
+  
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+}
+.words-small:hover p span {
+  background-color:#dcdcdc;
+}
