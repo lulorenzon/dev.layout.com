@@ -3,16 +3,22 @@ body {
 }
 
 .hero h1:hover {
-  background-color: #dcdcdc;
+  background-color: #f7f7f7;
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700px;
   font-size: 30px;
   cursor: pointer;
 }
-
 .menu a:hover {
-  background-color: #dcdcdc;
+  background-color: #f7f7f7;
+}
+
+@media screen and (min-width: 940px) {
+  .hero {
+    margin: 105px 31px 32px 149px;
+
+  }
 }
 
 .container {
@@ -20,10 +26,17 @@ body {
   flex-direction: column;
   display: flex;
 }
+@media screen and (min-width: 580px) {
 
-@media screen and (min-width: 800px) {
+.container {
+  flex-direction: column;
+}
+}
+
+@media screen and (min-width: 939px) {
   .container {
-    flex-direction: unset;
+    flex-direction: inherit;
+    justify-content: space-evenly;
   }
 }
 
@@ -46,6 +59,29 @@ body {
   transition: transform 0.5s ease;
 }
 
+@media screen and (min-width: 900px) {
+  .big-image img {
+    width: 90%;
+    height: 123px;
+    margin: 1px 13px;
+    margin-bottom: 14px;
+    
+    
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .big-image img {
+    width: 90%;
+    height: 180px;
+    margin: 1px 13px;
+    margin-bottom: 14px;
+    
+  }
+}
+
+
+
 .three-images:hover img {
   transform: scale(1.2, 1.2);
 }
@@ -56,9 +92,7 @@ body {
   }
 }
 .three-images img {
-  /* padding-top: 7px;
-    padding-left: 3px;
-    list-style: none; */
+  
   width: 30%;
   height: 80px;
   margin: 4px;
@@ -69,21 +103,49 @@ body {
   transform: scale(1, 1);
 }
 
+@media screen and (min-width: 900px) {
+  .three-images img {
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .three-images img {
+    margin: 4px;
+  }
+}
+
 .words-small {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* @media screen and (min-width: 940px){
-  .words-small {
-    
-}
-} */
 
 .words-small img {
   width: 25px;
   height: 25px;
   padding-left: 250px;
+}
+
+@media screen and (min-width: 900px){
+  .words-small img {
+    padding-left: 130px;
+    
+}
+}
+
+@media screen and (min-width: 1380px){
+  .words-small img {
+  
+    width: 25px;
+    height: 25px;
+    padding-left: 250px;
+}
+}
+
+
+.header h1{
+  margin: 13px;
 }
 
 .header {
@@ -94,7 +156,7 @@ body {
 
 @media screen and (min-width: 940px) {
   .header {
-    display: block;
+    align-items: flex-start;
   }
 }
 
@@ -124,8 +186,16 @@ body {
   border-radius: 32px;
   background-color: #eff0f1;
   min-height: 600px;
-  position: absolute;
+  
 }
+
+@media screen and (max-width: 940px) {
+  .background {
+    display: contents;
+  }
+}
+
+
 
 .box {
   padding: 17px;
@@ -135,4 +205,19 @@ body {
   margin: 10px;
   background-color: white;
   border-radius: 32px;
+}
+
+@media screen and (min-width: 900px) {
+  .box {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+
+@media screen and (min-width: 1380px) {
+  .box {
+    width: 340px;
+    height: 340px;
+  }
 }
