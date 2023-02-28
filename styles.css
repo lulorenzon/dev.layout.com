@@ -61,9 +61,9 @@ body {
 
 @media screen and (min-width: 900px) {
   .big-image img {
-    width: 90%;
+    width: 100%;
     height: 154px;
-    margin: 1px 13px 30px;
+    margin: 1px 1px 30px;
     margin-bottom: 14px;
     border-radius: 14px;
     
@@ -93,7 +93,7 @@ body {
   width: 30%;
   height: 80px;
   margin: 4px;
-  border-radius: 19px;
+  border-radius: 10px;
   transition: 0.3s;
   background-size: cover;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .three-images img {
-    margin: 0px;
+    margin: 3px;
   }
 }
 
@@ -117,9 +117,9 @@ body {
   flex-direction: row;
   align-items: center;
   font-family: 'Poppins', sans-serif;    
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 36px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
     
     }
 
@@ -132,7 +132,7 @@ body {
 
 @media screen and (min-width: 900px){
   .words-small img {
-    padding-left: 140px;
+    padding-left: 190px;
     height: 20px;
 }
 }
@@ -151,15 +151,24 @@ body {
   margin: 13px;
 }
 
+@media screen and (max-width: 939px) {
+  .header h1 {
+    padding-left: 22px;
+
+}
+}
+
 .header {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-right: 45px;
 }
 
 @media screen and (min-width: 940px) {
   .header {
     align-items: flex-start;
+    margin-right: 0
   }
 }
 
@@ -183,6 +192,11 @@ body {
   font-weight: 700px;
   font-size: 12px;
   cursor: pointer;
+  border-radius: 4px
+}
+
+.header a:hover{
+
 }
 
 
@@ -216,6 +230,7 @@ body {
   .box {
     width: 300px;
     height: 294px;
+    margin: 5px;
   }
 }
 
@@ -226,3 +241,11 @@ body {
     height: 340px;
   }
 }
+
+.header a:hover{
+transition: 0.7s;
+  background-color: #ebebeb;
+}
+
+
+
