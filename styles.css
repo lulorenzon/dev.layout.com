@@ -204,10 +204,10 @@ body {
   color: black;
   background-color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 4px;
   font-family: "Poppins", sans-serif;
   font-weight: 700px;
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -222,6 +222,7 @@ body {
   .header a {
     font-size: 14px;
     padding: 9px;
+    border-radius: 5px;
   }
 }
 .background {
