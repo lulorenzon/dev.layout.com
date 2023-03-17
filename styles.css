@@ -14,24 +14,10 @@ body {
   background-color: #ebebeb;
 }
 
-@media screen and (min-width: 940px) {
-  .hero {
-    margin: 105px 31px 32px 149px;
-  }
-}
-
 .container {
   align-items: center;
   flex-direction: column;
   display: flex;
-}
-
-@media screen and (min-width: 940px) {
-  .container {
-    flex-direction: inherit;
-    justify-content: space-evenly;
-    margin: 32px;
-  }
 }
 
 .hero {
@@ -54,26 +40,6 @@ body {
   right: 15px;
 }
 
-@media screen and (min-width: 940px) {
-  .big-image img {
-    width: 80%;
-    height: 136px;
-    /* margin: 19px 14px 30px;
-    margin-bottom: 13px; */
-    border-radius: 14px;
-    position: relative;
-    left: 3px;
-  }
-}
-
-@media screen and (min-width: 1380px) {
-  .big-image img {
-    width: 84%;
-    height: 167px;
-    margin: 18px 30px 14px;
-  }
-}
-
 .three-images:hover img {
   transform: scale(1.2, 1.2);
 }
@@ -87,22 +53,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   transform: scale(1, 1);
-}
-
-@media screen and (min-width: 940px) {
-  .three-images img {
-    margin: 3px;
-    position: relative;
-    left: 5px;
-  }
-}
-
-@media screen and (min-width: 1380px) {
-  .three-images img {
-    margin: 5px;
-    position: relative;
-    left: 7px;
-  }
 }
 
 .words-small {
@@ -126,69 +76,11 @@ body {
   top: 2px;
 }
 
-@media screen and (min-width: 940px) {
-  .words-small img {
-    padding-left: 190px;
-    height: 20px;
-    position: relative;
-    left: -9px;
-    top: 2px;
-  }
-}
-
-@media screen and (min-width: 1380px) {
-  .words-small img {
-    width: 25px;
-    height: 25px;
-    left: 80px;
-    position: relative;
-  }
-}
-
-.words-small p {
-  position: relative;
-  left: 10px;
-}
-.words-small span {
-  position: relative;
-  right: 80px;
-}
-
-@media screen and (min-width: 940px) {
-  .words-small span {
-  
-    top: 2px;
-    right: 7px
-  }
-}
-
-@media screen and (min-width: 1380px) {
-  .words-small span {
-    left: 80px;
-  }
-}
-.header h1 {
-  margin: 13px;
-}
-
-@media screen and (max-width: 939px) {
-  .header h1 {
-    padding-left: 22px;
-  }
-}
-
 .header {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-right: 45px;
-}
-
-@media screen and (min-width: 940px) {
-  .header {
-    align-items: flex-start;
-    margin-right: 0;
-  }
 }
 
 .header nav ul {
@@ -214,29 +106,10 @@ body {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 940px) {
-  .header a {
-    font-size: 12px;
-    padding: 7px;
-  }
-}
-@media screen and (min-width: 1390px) {
-  .header a {
-    font-size: 14px;
-    padding: 9px;
-    border-radius: 5px;
-  }
-}
 .background {
   border-radius: 32px;
   background-color: #eff0f1;
   min-height: 600px;
-}
-
-@media screen and (max-width: 940px) {
-  .background {
-    display: contents;
-  }
 }
 
 .box {
@@ -248,21 +121,105 @@ body {
   border-radius: 32px;
 }
 
+.header a:hover {
+  transition: 0.7s;
+  background-color: #ebebeb;
+}
+
 @media screen and (min-width: 940px) {
+  .container {
+    flex-direction: inherit;
+    justify-content: space-evenly;
+    margin: 32px;
+  }
+
+  .header h1 {
+    padding-left: 22px;
+  }
+  .hero {
+    margin: 105px 31px;
+  }
+
+  .big-image img {
+    width: 80%;
+    height: 136px;
+    border-radius: 14px;
+    position: relative;
+    left: 3px;
+  }
+  .three-images img {
+    margin: 3px;
+    position: relative;
+    left: 5px;
+  }
+  .words-small span {
+    top: 2px;
+    right: 7px;
+  }
+  .words-small img {
+    padding-left: 190px;
+    height: 20px;
+    position: relative;
+    left: -9px;
+    top: 2px;
+  }
+  .header {
+    align-items: flex-start;
+    margin-right: 0;
+  }
+  .header a {
+    font-size: 12px;
+    padding: 7px;
+  }
   .box {
     width: 300px;
     height: 294px;
   }
+
+  .background {
+    display: contents;
+  }
 }
 
 @media screen and (min-width: 1380px) {
+  .three-images img {
+    margin: 5px;
+    position: relative;
+    left: 7px;
+  }
+
+  .header a {
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 5px;
+  }
+
+  .big-image img {
+    width: 84%;
+    height: 167px;
+    margin: 18px 30px 14px;
+  }
+
+  .words-small img {
+    width: 25px;
+    height: 25px;
+    left: 80px;
+    position: relative;
+  }
+
+  .words-small p {
+    position: relative;
+    left: 10px;
+  }
+  .words-small span {
+    position: relative;
+    right: 80px;
+  }
+  .header h1 {
+    margin: 13px;
+  }
   .box {
     width: 379px;
     height: 345px;
   }
-}
-
-.header a:hover {
-  transition: 0.7s;
-  background-color: #ebebeb;
 }
