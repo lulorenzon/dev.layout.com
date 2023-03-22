@@ -2,8 +2,7 @@ body {
   background-color: #d8dae2;
 }
 
-.hero h1:hover {
-  background-color: #ebebeb;
+.hero h1 {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 700px;
@@ -14,11 +13,23 @@ body {
   background-color: #ebebeb;
 }
 
+.header h1 {
+position:relative;
+left: 22px;
+top: 10px;
+}
+
 .container {
   align-items: center;
   flex-direction: column;
   display: flex;
 }
+
+
+.image:hover {
+  transform: scale(1.2, 1.2);
+}
+
 
 .hero {
   margin: 50px;
@@ -40,19 +51,15 @@ body {
   right: 15px;
 }
 
-.three-images:hover img {
-  transform: scale(1.2, 1.2);
-}
+
 
 .three-images img {
   width: 28%;
   height: 70px;
   margin: 5px;
   border-radius: 10px;
-  transition: 0.3s;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: scale(1, 1);
 }
 
 .words-small {
@@ -61,10 +68,18 @@ body {
   align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 36px;
   bottom: 20px;
+  left: 10px;
   position: relative;
+}
+
+.words-small span {
+  position: relative;
+  right: 70px;
+  font-size: 12px;
+
 }
 
 .words-small img {
@@ -72,8 +87,8 @@ body {
   height: 19px;
   padding-left: 250px;
   position: relative;
-  right: 80px;
-  top: 2px;
+  right: 70px;
+  top: 1px;
 }
 
 .header {
@@ -134,10 +149,11 @@ body {
   }
 
   .header h1 {
-    padding-left: 22px;
+    padding-left: 25px;
   }
   .hero {
     margin: 105px 31px;
+    height: 600px
   }
 
   .big-image img {
@@ -152,9 +168,14 @@ body {
     position: relative;
     left: 5px;
   }
+  .words-small{
+
+    font-size: 17px;
+  }
   .words-small span {
     top: 2px;
     right: 7px;
+    font-size: 15px;
   }
   .words-small img {
     padding-left: 190px;
@@ -188,6 +209,10 @@ body {
     left: 7px;
   }
 
+  .hero
+  {
+    height: 600px
+  }
   .header a {
     font-size: 14px;
     padding: 9px;
@@ -203,8 +228,9 @@ body {
   .words-small img {
     width: 25px;
     height: 25px;
-    left: 80px;
+    left: 100px;
     position: relative;
+    top:3px;
   }
 
   .words-small p {
@@ -213,7 +239,7 @@ body {
   }
   .words-small span {
     position: relative;
-    right: 80px;
+    left: 45px;
   }
   .header h1 {
     margin: 13px;
